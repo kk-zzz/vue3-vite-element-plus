@@ -11,6 +11,8 @@ const count = ref(0)
 
 <template>
   <div class="hello-world">
+    <img src="@/assets/logo.png" alt="" />
+    <SvgIcon name="code" size="2rem" viewBox="0 0 13 15" />
     <div class="hello-world-scroll">
       <div class="content flex-between">
         <span>11</span>
