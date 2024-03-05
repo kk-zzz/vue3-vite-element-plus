@@ -1,5 +1,15 @@
-@import './mixin.scss';
 @import './global.scss';
+@import './mixin.scss';
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   height: 100%;
@@ -11,11 +21,6 @@ body {
 
 label {
   font-weight: 700;
-}
-
-html {
-  height: 100%;
-  box-sizing: border-box;
 }
 
 #app {
