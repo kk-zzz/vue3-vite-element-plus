@@ -11,6 +11,7 @@
     "lint": "eslint --fix --ext .js,.jsx,.vue,.ts,.tsx,.cjs,.mjs ./"
   },
   "dependencies": {
+    "@vueuse/core": "^10.9.0",
     "element-plus": "^2.4.4",
     "lodash-es": "^4.17.21",
     "vite-svg-loader": "^5.1.0",
