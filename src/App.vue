@@ -1,4 +1,5 @@
 <script setup>
+import RootComponent from './views/useCounterStore/RootComponent.vue'
 import { useGlobalState } from '@/store/useGlobalState'
 
 const { count, increment, doubleCount } = useGlobalState()
@@ -10,6 +11,8 @@ const { count, increment, doubleCount } = useGlobalState()
     <div class="global-state-count">{{ count }}</div>
     <div class="global-state-double-count">count * 2 = {{ doubleCount }}</div>
     <button @click="increment">count + 1</button>
+    <pre>RootComponent</pre>
+    <RootComponent />
   </div>
 </template>
 
